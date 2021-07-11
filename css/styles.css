@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: #D6000D;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.codar{
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    margin-left: 20px;
+    font-style: italic;
+    
+}
+
+nav{
+    font-size: 24px;
+    color:black;
+    margin-right: 20px;
+    
+    
+}
+
+nav a{
+    padding: 15px ;
+}
+
+
+
+strong{
+    color: black;
+}
+
+
+
+.login{
+    border-radius: 7px;
+    color: white;
+    background-color: #D6000D;
+    padding: 3px 25px;
+ 
+}
+
+.pai1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    
+    justify-content: space-around;
+    
+}
+
+.pai2{
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+.filho1{
+    align-self: center;
+    width: 50%;
+    
+}
+
+.filho2{
+    margin-top: 10px;
+    align-self: center;
+}
+
+.filho21{
+    align-self: center;
+    
+    
+}
+
+.filho22{
+    
+    align-self: center;
+    width: 40%;
+    
+}
+
+
+.filho2 h3{
+    margin-top: 20px;
+    font-size: 30px
+}
+
+.filho2 h1{
+    font-size: 50px;
+    color: #D6000D;
+}
+
+.filho2 h4{
+    font-size: 25px;
+    margin-top: 50px;
+    border-radius: 7px;
+    color: white;
+    background-color: #D6000D;
+    padding: 10px 10px;
+
+}
+
+img{
+   width: 100%;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    font-size: larger;
+    padding: 15px;
+    list-style-type: none;
+    margin-left: 96px;
+    text-align: justify;
+    font-weight: 800;
+    
+    
+   
+    
+}
+
+ul li img{
+    width: 35px;
+    margin-right: 30px;
+    
+    
+}
+
+.paideum{
+    display: flex;
+   
+    flex-direction: column;
+    
+    margin-top: 110px;
+ 
+    
+    
+}
+
+.paideum h2{
+    
+    margin-left: 16%;
+    
+}
+
+form{
+    margin-left: 16%;
+}
+
+input{
+    
+    margin-top: 12px;
+    padding: 7px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: lightgray;
+    color: grey;
+    
+    
+}
+
+
+
+button{
+    margin-top: 12px;
+    border-style: none;
+    background-color: #D6000D;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    width: 300px;
+    font-size: 25px;
+    
+
+    
+}
+
+.avaliacoes{
+    margin-top: 150px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+
+.ava1, .ava2{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    border-radius:10px;
+    background-color: lightgray;
+    padding: 53px;
+    align-items: center;
+    align-content: center;
+
+    margin: 10px;
+    
+    
+    
+}
+
+.ava2{
+padding: 40px;  
+
+
+
+
+}
+
+.imagem, img{
+
+    border-radius: 50%;
+    width: 380px;
+    margin-right: 5px ;
+    
+    
+}
+
+.fotoh{
+
+    border-radius: 50%;
+    width: 100%;
+    margin-right: 15px ;
+    
+}
+
+.fotom{
+
+    border-radius: 100%;
+    width: 180px;
+  
+    margin-right: 15px ;
+    
+}
+
+
+
+
+img{
+    width: 100%;
+    border-radius: unset;
+    
+}
+
+.paizao{
+    margin-top: 50px;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+
+.f2 > p{
+    margin-top: 0px;
+
+}
+
+
+.f3, p{
+    margin-top: 15px;
+}
+
+.f4 > img{
+    margin-top: 15px;
+    width: 50px;
+}
+
+
+
+
+
+
+
